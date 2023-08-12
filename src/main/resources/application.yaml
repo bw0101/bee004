@@ -1,0 +1,5 @@
+server:
+  port: 8077
+
+app:
+  greeting: "Hi from YAML!"
