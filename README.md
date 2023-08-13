@@ -18,3 +18,14 @@ Spring Boot 3 and java 17 Application
 * ### Regular Scans
 
 > Continuously integrate vulnerability scanning into your CI/CD process. Tools like Checkmarx, Snyk, and others can help identify vulnerable dependencies early in the development lifecycle.
+
+
+## Using Properties
+* @Value
+> *  you can access values from application.yaml (or application.properties) using the @Value annotation 
+* @ConfigurationProperties 
+> * This is more useful when you have a group of related properties
+> * Important Note: Ensure you have spring-boot-configuration-processor in your classpath for better type-safety and IDE support when using @ConfigurationProperties.
+* PropertySourceFactory
+> * Using PropertySourceFactory with @Configuration
+    @PropertySource to use custom yaml for properties
