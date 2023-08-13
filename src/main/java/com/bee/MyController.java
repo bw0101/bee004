@@ -13,8 +13,13 @@ public class MyController {
         return "Hi, Bee!";
     }
 
-    @GetMapping("/hiYaml")
-    public String messageFromYaml() {
+    @GetMapping("/hiYamlValue")
+    public String messageFromYamlTroughValue() {
         return myService.showMessage();
+    }
+
+    @GetMapping("/hiYamlConf")
+    public String messageFromYamlTroughConfiguration() {
+        return myService.showMessageFromYaml();
     }
 }

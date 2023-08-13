@@ -3,3 +3,6 @@ server:
 
 app:
   greeting: "Hi from YAML!"
+
+appfirst:
+  greeting: "Hello from Yaml."

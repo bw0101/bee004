@@ -1,0 +1,8 @@
+server:
+  port: 8079
+
+app:
+  greeting: "Hi from YAML Special!"
+
+appfirst:
+  greeting: "Hello from Yaml Special 2."
